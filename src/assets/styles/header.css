@@ -1,0 +1,14 @@
+.header {
+  background-color: cadetblue;
+  height: 100px;
+}
+.header__link {
+  color: #428bca;
+  color: green;
+}
+.red-text {
+  color: red;
+}
+.title {
+  color: orange;
+}

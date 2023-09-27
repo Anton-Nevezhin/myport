@@ -439,6 +439,20 @@ a {
   flex-wrap: wrap;
   justify-content: space-between;
 }
+.header {
+  background-color: cadetblue;
+  height: 100px;
+}
+.header__link {
+  color: #428bca;
+  color: green;
+}
+.red-text {
+  color: red;
+}
+.title {
+  color: orange;
+}
 .text-middle {
   color: #219653;
   font-size: 36px;
@@ -458,6 +472,7 @@ a {
 .text-small {
   color: #363940;
   font-size: 18px;
+  line-height: 26px;
   margin-top: 20px;
   text-align: center;
   font-weight: 400;

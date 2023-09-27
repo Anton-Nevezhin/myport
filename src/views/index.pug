@@ -6,14 +6,27 @@ html
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap" rel="stylesheet">
-
-
-
-    link(rel="stylesheet", href="https://fonts.googleapis.com/css?family=Inconsolata|Open+Sans")
   body
+    include ../partials/author.pug
+    include ../partials/about.pug
+    include ../partials/skills.pug
+    include ../partials/portfolio.pug
+    include ../partials/projects.pug
+    //- include ../partials/form.pug
+    //- include ../partials/connection.pug
     .wrapper
-      include ../partials/author.pug
-      include ../partials/about.pug
-      include ../partials/skills.pug
-      include ../partials/portfolio.pug
-      include ../partials/projects.pug
+      include ../partials/header.pug
+      .content content
+      .red-text content
+
+      include ../partials/card.pug
+      - const text = ' Etiam quam erat, molestie elementum elementum porta, tincidunt eget nunc. Ut arcu quam, feugiat vitae laoreet vel, consectetur eget lorem. Duis ultrices ullamcorper dignissim.';
+      - const cards = [
+      -  {title: 'Lorem ipsum dolor', text, image: '../assets/images/octocat.png'},
+      -  {title: 'sit amet, consectetur', text, image: '../assets/images/octocat.png'},
+      - {title: 'adipiscing elit.', text, image: '../assets/images/octocat.png'}]
+
+      .cards
+        each item in cards
+          +card(item.title, item.text, 'cards__item', item.image)
+        
