@@ -1,0 +1,63 @@
+@import './variables.less';
+@import './standart.less';
+
+.about {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1400px;
+    height: 382px;
+    background-color: @background-color;
+    padding-top: 1px;
+}
+
+.about-content {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 940px;
+    text-align: center;
+}
+
+@media (max-width: 1024px) {
+
+    .about {
+        max-width: 1024px;
+        height: 279px;
+    }
+
+    .text-middle {
+        margin-top: 59px;
+        font-size: 32px;
+    }
+
+    .text-small {
+        margin-top: 40px;
+    }
+
+    .about-content {
+        max-width: 740px;
+    }
+
+}
+
+@media (max-width: 780px) {
+
+    .about {
+        max-width: 780px;
+        height: 279px;
+    }
+
+    .text-middle {
+        margin-top: 29px;
+        font-size: 28px;
+    }
+
+    .text-small {
+        margin-top: 40px;
+        font-size: 16px;
+    }
+
+    .about-content {
+        max-width: 460px;
+    }
+
+}
