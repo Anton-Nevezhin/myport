@@ -6,5 +6,5 @@ module.exports = {
   env: { NODE_ENV: '"production"' },
   output: path.resolve(__dirname, '../dist'),
   assetsSubDirectory: '/static',
-  assetsPublicPath: '/addfoto/dist/'
+  assetsPublicPath: '/myport/dist/'
 }
