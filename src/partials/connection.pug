@@ -1,0 +1,9 @@
+.connection
+    p.text-middle Обратная связь
+    p.text-small Failure will never overtake me if my determination to succeed is strong enough
+    .connection-content
+        form(action='/register', method='post')
+            +inputField('Имя', 'text')
+            +inputField('Email', 'email')
+            +inputField('Сообщение', 'textarea')
+            input.form-button(type='submit', value='ОТПРАВИТЬ')

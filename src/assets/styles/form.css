@@ -1,0 +1,15 @@
+.form-text {
+  width: 430px;
+  height: 46px;
+  margin-top: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: Rubik, sans-serif;
+  background-color: #E4FFEC;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #cccccc;
+  border-radius: 5px;
+}
