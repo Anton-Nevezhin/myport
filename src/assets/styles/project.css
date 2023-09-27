@@ -1,0 +1,13 @@
+.project {
+  width: 220px;
+  height: 234px;
+}
+.progect-image {
+  width: 220px;
+  height: 160px;
+}
+.project-name {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: 600;
+}
