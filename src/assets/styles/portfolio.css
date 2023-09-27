@@ -1,0 +1,159 @@
+.portfolio {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1400px;
+  height: 1569px;
+  background-color: #E4FFEC;
+  padding-top: 1px;
+}
+.portfolio-content {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 940px;
+}
+.work {
+  margin-top: 125px;
+  height: 350px;
+  display: flex;
+}
+.portfolio-img {
+  width: 460px;
+  height: 270px;
+}
+.mobile {
+  display: none;
+}
+.portfolio-text {
+  margin-top: 20px;
+  margin-left: 100px;
+}
+.portfolio-text-left {
+  margin-top: 20px;
+}
+.work-name {
+  color: #363940;
+  font-size: 32px;
+  margin-top: 20px;
+  text-align: left;
+  font-weight: 500;
+  font-family: Rubik, sans-serif;
+}
+.work-description {
+  color: #363940;
+  font-size: 18px;
+  margin-top: 20px;
+  text-align: left;
+  font-weight: 400;
+  font-family: Rubik, sans-serif;
+}
+.portfolio-left {
+  text-align: right;
+}
+.portfolio-img-right {
+  margin-left: 100px;
+}
+@media (max-width: 1024px) {
+  .portfolio {
+    max-width: 1024px;
+    height: 948px;
+  }
+  .portfolio-content {
+    max-width: 740px;
+  }
+  .text-middle {
+    margin-top: 59px;
+    font-size: 32px;
+  }
+  .text-small {
+    margin-top: 40px;
+  }
+  .portfolio-img {
+    width: 370px;
+    height: 211px;
+  }
+  .work {
+    margin-top: 0px;
+    height: 291px;
+  }
+  .work-name {
+    color: #363940;
+    font-size: 32px;
+    margin-top: 20px;
+    text-align: left;
+    font-weight: 500;
+    font-family: Rubik, sans-serif;
+  }
+  .portfolio-text {
+    margin-top: 0px;
+    margin-left: 100px;
+  }
+  .portfolio-text-left {
+    margin-top: 0px;
+  }
+  .work-name {
+    font-size: 24px;
+    margin-top: 0px;
+  }
+  .work-description {
+    font-size: 16px;
+    margin-top: 20px;
+  }
+}
+@media (max-width: 780px) {
+  .portfolio {
+    max-width: 780px;
+    height: 1815px;
+  }
+  .portfolio-content {
+    max-width: 87vw;
+  }
+  .text-middle {
+    margin-top: 29px;
+    font-size: 28px;
+  }
+  .text-small {
+    margin-top: 40px;
+    font-size: 16px;
+  }
+  .portfolio-img {
+    width: 87vw;
+    height: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  .work {
+    margin-top: 53px;
+    height: 460px;
+    display: block;
+  }
+  .work-name {
+    font-size: 24px;
+    margin-top: 20px;
+    text-align: center;
+  }
+  .work-description {
+    font-size: 16px;
+    margin-top: 10px;
+    text-align: center;
+  }
+  .portfolio-text {
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+  .portfolio-text-left {
+    margin-top: 0px;
+  }
+  .portfolio-img-right {
+    margin-left: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  .top {
+    display: none;
+  }
+  .mobile {
+    display: block;
+  }
+}
