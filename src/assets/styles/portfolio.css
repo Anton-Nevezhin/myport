@@ -60,13 +60,6 @@
   .portfolio-content {
     max-width: 740px;
   }
-  .text-middle {
-    margin-top: 59px;
-    font-size: 32px;
-  }
-  .text-small {
-    margin-top: 40px;
-  }
   .portfolio-img {
     width: 370px;
     height: 211px;
@@ -102,18 +95,11 @@
 @media (max-width: 780px) {
   .portfolio {
     max-width: 780px;
-    height: 1815px;
+    height: 260vw;
   }
   .portfolio-content {
     max-width: 87vw;
-  }
-  .text-middle {
-    margin-top: 29px;
-    font-size: 28px;
-  }
-  .text-small {
-    margin-top: 40px;
-    font-size: 16px;
+    height: 440vw;
   }
   .portfolio-img {
     width: 87vw;
@@ -124,7 +110,7 @@
   }
   .work {
     margin-top: 53px;
-    height: 460px;
+    height: 70vw;
     display: block;
   }
   .work-name {

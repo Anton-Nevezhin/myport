@@ -17,10 +17,31 @@
 .text-small {
   color: #363940;
   font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
   margin-top: 20px;
   text-align: center;
   font-weight: 400;
   font-family: Rubik, sans-serif;
+}
+@media (max-width: 1024px) {
+  .text-middle {
+    margin-top: 59px;
+    font-size: 32px;
+  }
+  .text-small {
+    margin-top: 40px;
+  }
+}
+@media (max-width: 780px) {
+  .text-middle {
+    margin-top: 29px;
+    font-size: 28px;
+  }
+  .text-small {
+    margin-top: 40px;
+    font-size: 16px;
+  }
 }
 .about {
   margin-left: auto;
@@ -41,13 +62,6 @@
     max-width: 1024px;
     height: 279px;
   }
-  .text-middle {
-    margin-top: 59px;
-    font-size: 32px;
-  }
-  .text-small {
-    margin-top: 40px;
-  }
   .about-content {
     max-width: 740px;
   }
@@ -56,14 +70,6 @@
   .about {
     max-width: 780px;
     height: 279px;
-  }
-  .text-middle {
-    margin-top: 29px;
-    font-size: 28px;
-  }
-  .text-small {
-    margin-top: 40px;
-    font-size: 16px;
   }
   .about-content {
     max-width: 460px;

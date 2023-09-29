@@ -9,7 +9,55 @@
 }
 
 .project-name {
-    margin-top: 10px;
+    margin-top: 20px;
     font-size: 18px;
-    font-weight: 600;
+    font-family: Rubik, sans-serif;
+    font-weight: 500;
+    color: #363940;
 }
+
+@media (max-width: 1024px) {
+
+    .project {
+        width: 180px;
+        height: 161px;
+    }
+
+    .progect-image {
+        width: 180px;
+        height: 105px;
+        
+    }
+
+    .project-name {
+        margin-top: 10px;
+        font-size: 16px;
+    }
+
+}
+  
+  @media (max-width: 780px) {
+  
+    .project {
+        margin-left: auto;
+        margin-right: auto;
+        width: 92vw;
+        height: 34vw;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .progect-image {
+        width: 50vw;
+        height: 29.4vw;
+    }
+
+    .project-name {
+        margin-top: 10vw;
+        font-size: 16px;
+        display: inline-block;
+        width: 30vw;
+    }
+
+  }
+
