@@ -15,19 +15,19 @@ html
     include ../partials/projects.pug
     //- include ../partials/form.pug
     //- include ../partials/connection.pug
-    .wrapper
-      include ../partials/header.pug
-      .content content
-      .red-text content
+    //- .wrapper
+    //-   include ../partials/header.pug
+    //-   .content content
+    //-   .red-text content
 
-      include ../partials/card.pug
-      - const text = ' Etiam quam erat, molestie elementum elementum porta, tincidunt eget nunc. Ut arcu quam, feugiat vitae laoreet vel, consectetur eget lorem. Duis ultrices ullamcorper dignissim.';
-      - const cards = [
-      -  {title: 'Lorem ipsum dolor', text, image: '../assets/images/octocat.png'},
-      -  {title: 'sit amet, consectetur', text, image: '../assets/images/octocat.png'},
-      - {title: 'adipiscing elit.', text, image: '../assets/images/octocat.png'}]
+    //-   include ../partials/card.pug
+    //-   - const text = ' Etiam quam erat, molestie elementum elementum porta, tincidunt eget nunc. Ut arcu quam, feugiat vitae laoreet vel, consectetur eget lorem. Duis ultrices ullamcorper dignissim.';
+    //-   - const cards = [
+    //-   -  {title: 'Lorem ipsum dolor', text, image: '../assets/images/octocat.png'},
+    //-   -  {title: 'sit amet, consectetur', text, image: '../assets/images/octocat.png'},
+    //-   - {title: 'adipiscing elit.', text, image: '../assets/images/octocat.png'}]
 
-      .cards
-        each item in cards
-          +card(item.title, item.text, 'cards__item', item.image)
+    //-   .cards
+    //-     each item in cards
+    //-       +card(item.title, item.text, 'cards__item', item.image)
         
