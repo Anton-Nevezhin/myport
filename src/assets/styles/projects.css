@@ -27,7 +27,7 @@
 }
 @media (max-width: 780px) {
   .projects {
-    max-width: 780px;
+    width: 100vw;
     height: 310vw;
   }
   .projects-gallery {
