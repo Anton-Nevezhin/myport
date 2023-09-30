@@ -53,18 +53,18 @@
 }
 @media (max-width: 780px) {
   .author {
-    max-width: 780px;
-    height: 609px;
+    width: 100vw;
+    height: 200vw;
   }
   .author-content {
     margin-left: auto;
     margin-right: auto;
-    max-width: 580px;
+    width: 90vw;
     display: block;
   }
   .text-author-big {
     margin-top: 20px;
-    font-size: 28px;
+    font-size: 30px;
     text-align: center;
   }
   .text-author-small {
@@ -75,14 +75,15 @@
   .avatar {
     margin-left: auto;
     margin-right: auto;
-    width: 97vw;
+    width: 90vw;
     height: auto;
     margin-top: 40px;
     display: block;
   }
   .greeting {
-    width: 300px;
+    width: 90vw;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
   }
 }
