@@ -53,6 +53,44 @@
   margin-left: 100px;
 }
 @media (max-width: 1024px) {
+  .portfolio {
+    max-width: 1024px;
+    height: 948px;
+  }
+  .portfolio-content {
+    max-width: 740px;
+  }
+  .portfolio-img {
+    width: 370px;
+    height: 211px;
+  }
+  .work {
+    margin-top: 0px;
+    height: 291px;
+  }
+  .work-name {
+    color: #363940;
+    font-size: 32px;
+    margin-top: 20px;
+    text-align: left;
+    font-weight: 500;
+    font-family: Rubik, sans-serif;
+  }
+  .portfolio-text {
+    margin-top: 0px;
+    margin-left: 100px;
+  }
+  .portfolio-text-left {
+    margin-top: 0px;
+  }
+  .work-name {
+    font-size: 24px;
+    margin-top: 0px;
+  }
+  .work-description {
+    font-size: 16px;
+    margin-top: 20px;
+  }
 }
 @media (max-width: 780px) {
   .portfolio {
