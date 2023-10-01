@@ -2,7 +2,7 @@
   margin-left: auto;
   margin-right: auto;
   max-width: 1400px;
-  height: 844px;
+  padding-bottom: 100px;
   padding-top: 1px;
 }
 .projects-gallery {
@@ -10,7 +10,6 @@
   margin-right: auto;
   margin-top: 40px;
   width: 940px;
-  height: 548px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -18,20 +17,19 @@
 @media (max-width: 1024px) {
   .projects {
     max-width: 1024px;
-    height: 639px;
+    padding-bottom: 60px;
   }
   .projects-gallery {
     max-width: 760px;
-    height: 378px;
   }
 }
 @media (max-width: 780px) {
   .projects {
     width: 100vw;
-    height: 310vw;
+    padding-bottom: 30px;
   }
   .projects-gallery {
-    max-width: 97vw;
+    width: 97vw;
     display: block;
   }
 }

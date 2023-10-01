@@ -4,7 +4,7 @@
     margin-left: auto;
     margin-right: auto;
     max-width: 1400px;
-    height: 609px;
+    padding-bottom: 60px;
     padding-top: 1px;
 }
 
@@ -68,7 +68,7 @@
 
     .author {
         width: 100vw;
-        height: 200vw;
+        padding-bottom: 30px;
     }
 
     .author-content {
@@ -80,12 +80,14 @@
 
     .text-author-big {
         margin-top: 20px;
-        font-size: 30px;
+        font-size: 44px;
+        line-height: 44px;
         text-align: center;
     }
 
     .text-author-small {
-        font-size: 18px;
+        font-size: 26px;
+        line-height: 26px;
         margin-top: 0px;
         text-align: center;
     }
@@ -104,5 +106,30 @@
         margin-left: auto;
         margin-right: auto;
         text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .author {
+        padding-bottom: 30px;
+    }
+
+    .text-author-big {
+        margin-top: 20px;
+        font-size: 32px;
+        line-height: 44px;
+    }
+
+    .text-author-small {
+        font-size: 20px;
+        line-height: 26px;
+
+    }
+
+    .avatar {
+        width: 90vw;
+        height: auto;
+        margin-top: 40px;
     }
 }
