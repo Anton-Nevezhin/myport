@@ -1,12 +1,15 @@
 .skills
     p.text-middle Технические навыки
     .skills-content
-        img.skill-img(src='../assets/images/html.jpg')
-        img.skill-img(src='../assets/images/css.jpg')
-        img.skill-img(src='../assets/images/js.jpg')
-        img.skill-img(src='../assets/images/pug.jpg')
-        img.skill-img(src='../assets/images/react.png')
-        img.skill-img(src='../assets/images/webpack.svg')
-        img.skill-img(src='../assets/images/octocat.png')
+        include ../partials/skill.pug
+        - const allskills = [
+        -  {image: '../assets/images/html.jpg', text: 'html'},
+        -  {image: '../assets/images/css.jpg', text: 'CSS'},
+        -  {image: '../assets/images/js.jpg', text: 'JavaScript'},
+        -  {image: '../assets/images/pug.jpg', text: 'Pug'},
+        -  {image: '../assets/images/react.png', text: 'React'},
+        -  {image: '../assets/images/webpack.jpg', text: 'Webpack'},
+        -  {image: '../assets/images/octocat.png', text: 'GitHub'}]
 
-        
+        each item in allskills
+          +skill(item.image, item.text)

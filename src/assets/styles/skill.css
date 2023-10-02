@@ -1,0 +1,10 @@
+.scill {
+  width: 100px;
+}
+.skill-text {
+  width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-weight: 500;
+}
