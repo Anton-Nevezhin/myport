@@ -8,3 +8,35 @@
   text-align: center;
   font-weight: 500;
 }
+.skill-img {
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (max-width: 1024px) {
+  .scill {
+    width: 75px;
+  }
+  .skill-text {
+    width: 75px;
+  }
+  .skill-img {
+    width: 75px;
+    height: 75px;
+  }
+}
+@media (max-width: 780px) {
+  .scill {
+    width: 75px;
+  }
+  .skill-text {
+    width: 75px;
+    font-size: 12px;
+  }
+  .skill-img {
+    width: 50px;
+    height: 50px;
+  }
+}

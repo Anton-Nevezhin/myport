@@ -14,7 +14,7 @@
 .text-author-big {
   color: #219653;
   font-size: 64px;
-  margin-top: 109px;
+  margin-top: 69px;
   text-align: left;
   font-weight: 500;
   font-family: Rubik, sans-serif;
@@ -30,7 +30,7 @@
 .avatar {
   width: auto;
   height: 500px;
-  margin-top: 50px;
+  margin-top: 10px;
 }
 .greeting {
   margin-left: 100px;

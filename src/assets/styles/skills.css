@@ -11,12 +11,8 @@
   margin-top: 100px;
   max-width: 940px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
-}
-.skill-img {
-  width: 100px;
-  height: 100px;
 }
 @media (max-width: 1024px) {
   .skills {
@@ -34,12 +30,12 @@
 }
 @media (max-width: 780px) {
   .skills {
-    max-width: 780px;
+    width: 100vw;
     padding-bottom: 30px;
   }
   .skills-content {
     margin-top: 30px;
-    max-width: 460px;
+    width: 90vw;
   }
   .skill-img {
     width: 50px;

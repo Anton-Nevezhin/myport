@@ -1,18 +1,24 @@
 @import './variables.less';
 
 .header {
-    &__link {
-        color: @link-color;
-        color: @green-color;
-    }
-    background-color: cadetblue;
-    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1400px;
+    height: 48px;
+    padding-top: 28px;   
 }
 
-.red-text {
-    color: red;
+.header-content {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 940px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
 }
 
-.title {
-    color: @orange-color;
+.header-link {
+    color: @text-small-color;
+    font-size: 16px;
+    font-weight: 500;
 }

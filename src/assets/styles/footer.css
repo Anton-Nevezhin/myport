@@ -22,3 +22,13 @@
   width: 24px;
   height: 24px;
 }
+@media (max-width: 1024px) {
+  .footer-content {
+    max-width: 780px;
+  }
+}
+@media (max-width: 780px) {
+  .footer-content {
+    max-width: 90vw;
+  }
+}

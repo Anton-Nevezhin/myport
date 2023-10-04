@@ -263,7 +263,7 @@ a {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  background-color: aqua;
+  font-weight: 500;
 }
 .portfolio {
   margin-left: auto;
@@ -625,6 +625,30 @@ a {
 .footer-img {
   width: 24px;
   height: 24px;
+}
+@media (max-width: 1024px) {
+  .footer-content {
+    max-width: 780px;
+  }
+}
+@media (max-width: 780px) {
+  .footer-content {
+    max-width: 90vw;
+  }
+}
+.header {
+  background-color: cadetblue;
+  height: 100px;
+}
+.header__link {
+  color: #428bca;
+  color: green;
+}
+.red-text {
+  color: red;
+}
+.title {
+  color: orange;
 }
 .header {
   background-color: cadetblue;

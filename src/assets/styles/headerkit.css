@@ -1,0 +1,14 @@
+.headerkit {
+  background-color: cadetblue;
+  height: 100px;
+}
+.headerkit__link {
+  color: #219653;
+  color: green;
+}
+.red-text {
+  color: red;
+}
+.title {
+  color: orange;
+}

@@ -1,14 +1,20 @@
 .header {
-  background-color: cadetblue;
-  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1400px;
+  height: 48px;
+  padding-top: 28px;
 }
-.header__link {
-  color: #428bca;
-  color: green;
+.header-content {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 940px;
+  height: 24px;
+  display: flex;
+  justify-content: space-between;
 }
-.red-text {
-  color: red;
-}
-.title {
-  color: orange;
+.header-link {
+  color: #363940;
+  font-size: 16px;
+  font-weight: 500;
 }

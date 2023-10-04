@@ -13,12 +13,23 @@
     margin-left: auto;
     margin-right: auto;
     max-width: 940px;
+    overflow: hidden;
 }
 
 .work {
     margin-top: 125px;
     height: 350px;
     display: flex;
+}
+
+.work-right {
+    animation-duration: 3s;
+    animation-name: slideInRight;
+}
+
+.work-left {
+    animation-duration: 3s;
+    animation-name: slideInLeft;
 }
 
 .portfolio-img {
@@ -33,6 +44,7 @@
 .portfolio-text {
     margin-top: 20px;
     margin-left: 100px;
+    width: 460px;
 }
 
 .portfolio-text-left {
@@ -64,6 +76,30 @@
 .portfolio-img-right {
     margin-left: 100px;
 }
+  
+  @keyframes slideInRight {
+    from {
+      margin-left: 100%;
+      width: 100%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+  @keyframes slideInLeft {
+    from {
+      margin-left: -100%;
+      width: 100%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
 
 @media (max-width: 1024px) {
 
