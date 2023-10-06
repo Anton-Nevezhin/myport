@@ -22,15 +22,15 @@
     display: flex;
 }
 
-.work-right {
-    animation-duration: 3s;
-    animation-name: slideInRight;
-}
+// .work-right {
+//     animation-duration: 3s;
+//     animation-name: slideInRight;
+// }
 
-.work-left {
-    animation-duration: 3s;
-    animation-name: slideInLeft;
-}
+// .work-left {
+//     animation-duration: 3s;
+//     animation-name: slideInLeft;
+// }
 
 .portfolio-img {
     width: 460px;
@@ -76,6 +76,42 @@
 .portfolio-img-right {
     margin-left: 100px;
 }
+
+//Первая анимация
+
+.element-animation {
+    margin: 2rem 0;
+    font-size: 3rem;
+    
+    /* Скроем элемент в начальном состоянии */
+    opacity: 0;
+  }
+  
+  .element-animation.element-show {
+    opacity: 1;
+    transition: opacity 2s;
+  }
+
+
+//Вторая анимация
+
+@media (prefers-reduced-motion: no-preference) {
+    .shift-right {
+      animation-name: slideInRight;
+      animation-duration: 2s;
+      animation-iteration-count: 1;
+    }
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    .shift-left {
+      animation-name: slideInLeft;
+      animation-duration: 2s;
+      animation-iteration-count: 1;
+    }
+  }
+
+
   
   @keyframes slideInRight {
     from {

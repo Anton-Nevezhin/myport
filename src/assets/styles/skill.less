@@ -1,4 +1,4 @@
-.scill {
+.skill {
     width: 100px;
 }
 .skill-text {
@@ -17,9 +17,21 @@
     margin-right: auto;
 }
 
+.skill {
+   
+    /* Скроем элемент в начальном состоянии */
+    opacity: 0;
+  }
+  
+  .skill.skill-show {
+    opacity: 1;
+    transition: opacity 4s;
+  }
+
+
 @media (max-width: 1024px) {
   
-    .scill {
+    .skill {
         width: 75px;
     }
 
@@ -37,7 +49,7 @@
   @media (max-width: 780px) {
   
 
-    .scill {
+    .skill {
         width: 75px;
     }
 

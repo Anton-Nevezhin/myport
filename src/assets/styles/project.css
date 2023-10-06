@@ -3,7 +3,7 @@
   height: 234px;
 }
 .progect-image {
-  width: 220px;
+  width: 0px;
   height: 160px;
 }
 .project-name {
@@ -12,6 +12,10 @@
   font-family: Rubik, sans-serif;
   font-weight: 500;
   color: #363940;
+}
+.progect-image.progect-image-full {
+  width: 220px;
+  transition: 2s;
 }
 @media (max-width: 1024px) {
   .project {
