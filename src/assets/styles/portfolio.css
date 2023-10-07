@@ -27,7 +27,6 @@
 .portfolio-text {
   margin-top: 20px;
   margin-left: 100px;
-  width: 460px;
 }
 .portfolio-text-left {
   margin-top: 20px;
@@ -53,16 +52,6 @@
 }
 .portfolio-img-right {
   margin-left: 100px;
-}
-.element-animation {
-  margin: 2rem 0;
-  font-size: 3rem;
-  /* Скроем элемент в начальном состоянии */
-  opacity: 0;
-}
-.element-animation.element-show {
-  opacity: 1;
-  transition: opacity 2s;
 }
 @media (prefers-reduced-motion: no-preference) {
   .shift-right {

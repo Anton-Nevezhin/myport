@@ -38,6 +38,7 @@
 @media (max-width: 780px) {
   .skill {
     width: 75px;
+    opacity: 1;
   }
   .skill-text {
     width: 75px;

@@ -40,11 +40,13 @@ import '../lib/style'
 // }
 
 function onEntry (entry) {
+  if (window.innerWidth > 780) {
   entry.forEach(change => {
     if (change.isIntersecting) {
       change.target.classList.add('skill-show')
     }
   })
+  }
 }
 let options = { threshold: [0.5] }
 let observer = new IntersectionObserver(onEntry, options)
@@ -54,19 +56,22 @@ for (let elm of elements) {
 }
 
 function fullEntry (entry) {
+  if (window.innerWidth > 780) {
   entry.forEach(change => {
     if (change.isIntersecting) {
       change.target.classList.add('progect-image-full')
     }
   })
+  }
 }
-let observerOne = new IntersectionObserver(fullEntry)
-let elementsOne = document.querySelectorAll('.progect-image')
-for (let elm of elementsOne) {
-  observerOne.observe(elm)
+let observerFull = new IntersectionObserver(fullEntry)
+let elementsFull = document.querySelectorAll('.progect-image')
+for (let elm of elementsFull) {
+  observerFull.observe(elm)
 }
 
 const observerRight = new IntersectionObserver(entries => {
+  if (window.innerWidth > 780) {
   // перебор записей
   entries.forEach(entry => {
     // если элемент появился
@@ -75,6 +80,7 @@ const observerRight = new IntersectionObserver(entries => {
       entry.target.classList.add('shift-right')
     }
   })
+  }
 })
 
 let animalsRight = document.querySelectorAll('.work-right')
@@ -83,6 +89,7 @@ for (let elm of animalsRight) {
 }
 
 const observerLeft = new IntersectionObserver(entries => {
+  if (window.innerWidth > 780) {
   // перебор записей
   entries.forEach(entry => {
     // если элемент появился
@@ -91,6 +98,7 @@ const observerLeft = new IntersectionObserver(entries => {
       entry.target.classList.add('shift-left')
     }
   })
+  }
 })
 
 let animalsLeft = document.querySelectorAll('.work-left')
