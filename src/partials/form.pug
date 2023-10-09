@@ -1,2 +1,5 @@
-mixin inputField(placeholder, type, name)
-  input.form-text(placeholder=placeholder, type=type, name=name, required)
+mixin inputField(placeholder, type, name, className)
+  input.form-text(placeholder=placeholder, type=type, name=name, class=className, required)
+
+mixin pl(type, class)
+  type.class

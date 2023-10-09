@@ -5,5 +5,7 @@
         form.connection-form(action='https://formspree.io/f/xeqbpwzd', method='post')
             +inputField('Имя', 'text', 'name')
             +inputField('Email', 'email', 'email')
-            +inputField('Сообщение', 'textarea', 'textarea')
+            //- +inputField('Сообщение', 'textarea', 'textarea', 'connection-textarea')
+            textarea.form-text.connection-textarea(name='textarea', placeholder='Сообщение', required)
             input.form-button(type='submit', name='buttonForm', value='ОТПРАВИТЬ')
+            //- +pl
