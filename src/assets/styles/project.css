@@ -3,8 +3,11 @@
   height: 234px;
 }
 .progect-image {
+  margin-left: auto;
+  margin-right: auto;
   width: 0px;
   height: 160px;
+  display: block;
 }
 .project-name {
   margin-top: 20px;
