@@ -1,4 +1,9 @@
-.project
-    img.progect-image(src='../assets/images/02.jpg')
-    .project-name-box
-        p.project-name Yi Chun-Hw Yi Chun-Hw Yi Chun-Hw
+//- .project
+//-     img.progect-image(src='../assets/images/mini-project-1.png')
+//-     .project-name-box
+//-         p.project-name Фотогалерея
+mixin project(image, href, name)
+    .project
+        img.progect-image(src=image)
+        .project-name-box
+            a.project-name(href=href target="_blank")=name

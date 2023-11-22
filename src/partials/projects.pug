@@ -1,15 +1,6 @@
+include ../partials/project.pug
 .projects#projects
     p.text-middle Мини-проекты
-    p.text-small Могут быть использованы на страницах в качестве готовых блоков
+    p.text-small Могут быть использованы на страницах в качестве готовых блоков. Названия кликабельны
     .projects-gallery
-        //- img.portfolio-img(src='../assets/images/02.jpg')
-        //- img.progect-image(src='../assets/images/02.jpg')
-        include ../partials/project.pug
-        include ../partials/project.pug
-        include ../partials/project.pug
-        include ../partials/project.pug
-        include ../partials/project.pug
-        include ../partials/project.pug
-        include ../partials/project.pug
-        include ../partials/project.pug
-        
+        +project('../assets/images/mini-project-1.png', 'https://codepen.io/AntonNevezhin/pen/qBgYOKg', 'Фотогалерея')
