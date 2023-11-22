@@ -9,6 +9,9 @@
   height: 160px;
   display: block;
 }
+.project-name-box {
+  margin-top: 10px;
+}
 .project-name {
   margin-top: 20px;
   font-size: 18px;
