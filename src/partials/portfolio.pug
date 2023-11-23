@@ -1,11 +1,11 @@
 .portfolio#portfolio
-    p.text-middle Портфолио
+    p.text-middle Мои проекты
     .portfolio-content
         .work.work-right
             .work-header
                 img.portfolio-img(src='../assets/images/blog.png')
-                a.work-progect(href='https://anton-nevezhin.github.io/simple-blog/dist/index.html' target="_blank") Открыть
-
+                .work-progect
+                    a.work-progect-color(href='https://anton-nevezhin.github.io/simple-blog/dist/index.html' target="_blank") Открыть
             .portfolio-text
                 .work-name Путешествуем по всему миру
                 .work-description Простой блог на чистом JavaScript. Сверстан по бесплатному макету Figma. Использованы препроцессоры pug и less. Возможны редактирование, добавление и удаление записей. Имеется пагинация. Данные сохраняются в localStorage. Функция обратной связи реализована с помощью сервиса Formspree.
@@ -16,11 +16,13 @@
                 .work-description.portfolio-left Каталог сделан на фреймворке React. Минималистичный дизайн. Предусмотрены функции добавления, редактирования и удаления товаров.
             .work-header-left
                 img.portfolio-img.portfolio-img-right.top(src='../assets/images/pizza.png')
-                a.work-progect(href='https://anton-nevezhin.github.io/pizza/build/' target="_blank") Открыть
-
-            //- img.portfolio-img.portfolio-img-right(src='../assets/images/02.jpg')
-        .work.work-right
-            img.portfolio-img(src='../assets/images/02.jpg')
-            .portfolio-text
-                .work-name Choosing The Right Path Choosing The Right Path
-                .work-description Requiring the individual to remember what not to think of infers that they have already thought it. Although this is well intentioned and the goal certainly is to reduce the quantity of these bothersome thoughts
+                .work-progect
+                    a.work-progect-color(href='https://anton-nevezhin.github.io/pizza/build/' target="_blank") Открыть
+        //- .work.work-right
+        //-     .work-header
+        //-         img.portfolio-img(src='../assets/images/blog.png')
+        //-         .work-progect
+        //-             a.work-progect-color(href='https://anton-nevezhin.github.io/simple-blog/dist/index.html' target="_blank") Открыть
+        //-     .portfolio-text
+        //-         .work-name Путешествуем по всему миру
+    

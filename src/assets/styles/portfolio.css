@@ -46,6 +46,9 @@
   font-family: Rubik, sans-serif;
 }
 .work-progect {
+  margin-top: 10px;
+}
+.work-progect-color {
   color: #219653;
 }
 .work-header-left {
